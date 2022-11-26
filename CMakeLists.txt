@@ -24,3 +24,5 @@ target_link_libraries(blockofighter
     ${SDL2MIXER_LIBRARIES}
     ${OPENGL_LIBRARIES}
 )
+
+file(COPY data DESTINATION .)
